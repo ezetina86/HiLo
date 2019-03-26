@@ -18,12 +18,14 @@ public class HiLo {
 			 * only number between 0 and 0.99999, so I multiply theNumber * 100
 			 * 
 			 */
-			int theNumber = (int) (Math.random() * 100 + 1);
+			//Expanding My Range
+			//int theNumber = (int) (Math.random() * 100 + 1);
+			int theNumber = (int) (Math.random() * 200 - 100);
 			// System.out.println(theNumber);
 
 			int guess = 0;
 			while (guess != theNumber) {
-				System.out.println("Guess a number between 1 and 100:");
+				System.out.println("Guess a number between -100 and 100:");
 				guess = scanner.nextInt();
 				System.out.println("You entered " + guess + ".");
 				if (guess < theNumber)
