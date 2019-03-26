@@ -10,7 +10,7 @@ too low, or correct._
 for a basic version of the game I made the
 following :
 
-1. Generate a random number between 1 and 100 for the user to guess.
+1. Generate a random number between -100 and 100 for the user to guess.
 2. Display a prompt, or a line of text, asking the user to guess a number in that range.
 3. Accept the user’s guess as input.
 4. Compare the user’s guess to the computer’s number to see if the guess is too high, too low, or correct.
