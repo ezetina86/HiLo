@@ -24,6 +24,7 @@ public class HiLo {
 			// System.out.println(theNumber);
 
 			int guess = 0;
+			//Counting Tries
 			int numberOfTries = 0;
 
 			while (guess != theNumber) {
@@ -43,7 +44,9 @@ public class HiLo {
 					System.out.println("it only took you "+ numberOfTries + " tries! Good work!");
 				}
 
-			}
+			}//
+			System.out.println("Would you like to play again (y/n)?");
+			playAgain = scanner.next();
 		} while (playAgain.equalsIgnoreCase("y"));
 		System.out.println("Thank you for playing! Goodbye.");
 		// just to avoid fill up memory
