@@ -1,4 +1,10 @@
 import java.util.Scanner;
+/**
+ * 
+ * @author Henry
+ * @location Mexico City
+ *
+ */
 
 public class HiLo {
 
